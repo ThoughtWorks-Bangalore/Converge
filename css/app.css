@@ -3755,7 +3755,7 @@ section {
     -ms-animation: fadeInUp 1s 1s ease both;
     -o-animation: fadeInUp 1s 1s ease both;
     animation: fadeInUp 1s 1s ease both;
-    border-top: 1px dashed #222222; }
+    border-top: 1px dashed #ffffff; }
   #intro .countdown .counter p {
     -webkit-animation: fadeInUp 1s 1s ease both;
     -moz-animation: fadeInUp 1s 1s ease both;
