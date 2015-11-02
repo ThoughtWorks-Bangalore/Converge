@@ -3610,37 +3610,37 @@ button, .button {
 section#form h1 {
   margin-top: 25px; }
 
-#mktoForm_3208, #mktoForm_3209 {
+#mktoForm_3208, #mktoForm_3749 {
   margin: 0 auto;
   min-width: 320px !important;
   width: 500px !important;
   background-color: aliceblue;
   padding: 20px; }
-  #mktoForm_3208 .mktoFormRow, #mktoForm_3209 .mktoFormRow {
+  #mktoForm_3208 .mktoFormRow, #mktoForm_3749 .mktoFormRow {
     margin: 10px; }
-    #mktoForm_3208 .mktoFormRow input, #mktoForm_3208 .mktoFormRow textarea, #mktoForm_3209 .mktoFormRow input, #mktoForm_3209 .mktoFormRow textarea {
+    #mktoForm_3208 .mktoFormRow input, #mktoForm_3208 .mktoFormRow textarea, #mktoForm_3749.mktoFormRow input, #mktoForm_3749.mktoFormRow textarea {
       border: 0;
       border-bottom: 2px solid aliceblue; }
-      #mktoForm_3208 .mktoFormRow input:focus, #mktoForm_3208 .mktoFormRow textarea:focus, #mktoForm_3209 .mktoFormRow input:focus, #mktoForm_3209 .mktoFormRow textarea:focus {
+      #mktoForm_3208 .mktoFormRow input:focus, #mktoForm_3208 .mktoFormRow textarea:focus, #mktoForm_3749 .mktoFormRow input:focus, #mktoForm_3749 .mktoFormRow textarea:focus {
         border: none;
         outline: none;
         border-bottom: 2px solid #00aeef; }
-    #mktoForm_3208 .mktoFormRow .mktoLabel, #mktoForm_3209 .mktoFormRow .mktoLabel {
+    #mktoForm_3208 .mktoFormRow .mktoLabel, #mktoForm_3749 .mktoFormRow .mktoLabel {
       width: 150px !important;
       padding-top: 10px;
       font-weight: 400;
       font-size: 16px; }
-    #mktoForm_3208 .mktoFormRow input, #mktoForm_3209 .mktoFormRow input {
+    #mktoForm_3208 .mktoFormRow input, #mktoForm_3749 .mktoFormRow input {
       padding: 10px;
       width: 200px !important; }
-    #mktoForm_3208 .mktoFormRow select, #mktoForm_3209 .mktoFormRow select {
+    #mktoForm_3208 .mktoFormRow select, #mktoForm_3749 .mktoFormRow select {
       width: 200px !important;
       font-size: 16px; }
-    #mktoForm_3208 .mktoFormRow textarea, #mktoForm_3209 .mktoFormRow textarea {
+    #mktoForm_3208 .mktoFormRow textarea, #mktoForm_3749 .mktoFormRow textarea {
       width: 200px !important; }
 
 @media only screen and (max-width: 480px) {
-  #mktoForm_3208, #mktoForm_3209 {
+  #mktoForm_3208, #mktoForm_3749 {
     width: 320px !important; } }
 @media only screen and (max-width: 1280px) {
   body {
@@ -3686,7 +3686,7 @@ section {
 
 #intro {
   color: #222222;
-  background: white url(../img/white-bg.png);
+  background: white url(../img/dark-bg.jpg);
   background: url("../img/banner.jpg");
   background-size: cover;
   border-radius: 0; }
@@ -3698,7 +3698,7 @@ section {
     #intro {
       margin-top: 45px; } }
   #intro .row {
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     margin-bottom: 0;
     padding: 1em 0; }
   #intro .logo .tw-logo {
