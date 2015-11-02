@@ -1,15 +1,10 @@
 # humanstxt.org/
-# The humans responsible & technology colophon
+
+Built by Kishore, Sree & Wamika
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    V3
 
 # THANKS
 
-    <name>
-
-# TECHNOLOGY COLOPHON
-
-    HTML5, CSS3
-    Normalize.css, jQuery, Modernizr
