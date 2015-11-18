@@ -3621,6 +3621,11 @@ section#form h1 {
   background: #FFFFFF url(../img/white-bg-thatch.png);
 }
 
+#participate {
+  color: #FFFFFF;
+  background: #FFFFFF url(../img/white-bg-thatch.png);
+}
+
 .form-container {
 margin-left:auto;
     margin-right:auto;
@@ -3656,7 +3661,7 @@ margin-left:auto;
   padding-top: 13px;
 }
 
-#mktoForm_3208, #mktoForm_3749 {
+#mktoForm_3840, #mktoForm_3749 {
   margin-left:auto;
     margin-right:auto;
     max-width: 500px;
@@ -3667,9 +3672,9 @@ margin-left:auto;
   background-color: #FFFFFF;
   font-family: "Open Sans";
   }
-  #mktoForm_3208 .mktoFormRow, #mktoForm_3749 .mktoFormRow {
+  #mktoForm_3840 .mktoFormRow, #mktoForm_3749 .mktoFormRow {
     margin: 10px; }
-    #mktoForm_3208 .mktoFormRow input, #mktoForm_3208 .mktoFormRow textarea, #mktoForm_3749 .mktoFormRow input, #mktoForm_3749.mktoFormRow textarea {
+    #mktoForm_3840 .mktoFormRow input, #mktoForm_3840 .mktoFormRow textarea, #mktoForm_3749 .mktoFormRow input, #mktoForm_3749.mktoFormRow textarea {
     border-bottom: 2px solid #f06819 !important;
     font-size: 16px; 
     color: #555 !important;
@@ -3684,7 +3689,7 @@ margin-left:auto;
     -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2) !important;
     box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2) !important; }
       
-      #mktoForm_3208 .mktoFormRow input:focus, #mktoForm_3208 .mktoFormRow textarea:focus, #mktoForm_3749 .mktoFormRow input:focus, #mktoForm_3749 .mktoFormRow textarea:focus {
+      #mktoForm_3840 .mktoFormRow input:focus, #mktoForm_3840 .mktoFormRow textarea:focus, #mktoForm_3749 .mktoFormRow input:focus, #mktoForm_3749 .mktoFormRow textarea:focus {
         border-bottom: 2px solid #f06819;
         font-size: 16px; 
     color: #555;
@@ -3698,17 +3703,17 @@ margin-left:auto;
     outline: 0;
     -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
     box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2); }
-    #mktoForm_3208 .mktoFormRow .mktoLabel, #mktoForm_3749 .mktoFormRow .mktoLabel {
+    #mktoForm_3840 .mktoFormRow .mktoLabel, #mktoForm_3749 .mktoFormRow .mktoLabel {
       width: 150px !important;
       padding-top: 10px;
       font-weight: 400;
       font-size: 16px; 
       font-family: "Open Sans";
       }
-    #mktoForm_3208 .mktoFormRow input, #mktoForm_3749 .mktoFormRow input {
+    #mktoForm_3840 .mktoFormRow input, #mktoForm_3749 .mktoFormRow input {
       padding: 10px;
       width: 200px !important; }
-    #mktoForm_3208 .mktoFormRow select, #mktoForm_3749 .mktoFormRow select {
+    #mktoForm_3840 .mktoFormRow select, #mktoForm_3749 .mktoFormRow select {
     font-size: 16px;
     color: #555;
     width: 200px !important;
@@ -3721,7 +3726,7 @@ margin-left:auto;
     outline: 0;
     -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
     box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2); }
-    #mktoForm_3208 .mktoFormRow textarea, #mktoForm_3749 .mktoFormRow textarea {
+    #mktoForm_3840 .mktoFormRow textarea, #mktoForm_3749 .mktoFormRow textarea {
       width: 200px !important;
       height:100px;
     padding: 5px 0px 0px 5px;
@@ -3735,7 +3740,7 @@ margin-left:auto;
     outline: 0;
     -webkit-box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2);
     box-shadow: inset 1px 1px 2px rgba(200,200,200,0.2); }
-    #mktoForm_3749 .mktoButtonRow button {
+    #mktoForm_3840 .mktoButtonRow button, #mktoForm_3749 .mktoButtonRow button {
     -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     box-shadow:inset 0px 1px 0px 0px #fbafe3;
@@ -3769,7 +3774,7 @@ margin-left:auto;
 
 
 @media only screen and (max-width: 480px) {
-  #mktoForm_3208, #mktoForm_3749 {
+  #mktoForm_3840, #mktoForm_3749 {
     width: 320px !important; } }
 @media only screen and (max-width: 1280px) {
   body {
@@ -3986,19 +3991,21 @@ section {
       color: #a2a2a2;
       line-height: 2.5; }
 
-/*#agenda {
+#agenda {
   color: #222222;
-  background: #b38600 url(../img/white-bg.png);
-  background: #dee3f1 url("../img/white-bg-thatch.png"); }
-  #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda a, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
+  background: #FF8533 url(../img/white-bg-thatch.png); }
+  #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
+  #agenda a {
+    color: white; }
+    #agenda a:hover, #agenda a:active {
+      color: #fad1ba; }
   #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
   #agenda .timings .row {
-    border-left: solid 5px #ffdf80;
-    border-bottom: 1px dashed #b38600;
+    border-bottom: 1px dashed #f9c6a9;
     margin-bottom: 0;
-    padding: 0.5em;
+    padding: 0.5em 0;
     overflow: hidden;
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
@@ -4014,37 +4021,40 @@ section {
       transform-origin: 50% 50%; }
     #agenda .timings .row .summary {
       position: relative; }
-      #agenda .timings .row .summary a {
-        color: white; }
       #agenda .timings .row .summary p {
         margin-bottom: 0; }
+      #agenda .timings .row .summary small, #agenda .timings .row .summary #archive .grid a .year, #archive .grid a #agenda .timings .row .summary .year {
+        line-height: 1rem;
+        display: inline-block; }
       #agenda .timings .row .summary img {
         display: block;
         margin: 0.5em auto;
         max-width: 3em;
         border-radius: 50%; }
+      #agenda .timings .row .summary a {
+        white-space: nowrap; }
     @media only screen and (min-width: 768px) {
       #agenda .timings .row p {
         margin-bottom: 0; }
       #agenda .timings .row .time {
-        -webkit-transform-origin: 0% 100%;
-        -moz-transform-origin: 0% 100%;
-        -ms-transform-origin: 0% 100%;
-        -o-transform-origin: 0% 100%;
-        transform-origin: 0% 100%;
-        text-align: left; }
+        -webkit-transform-origin: 100% 50%;
+        -moz-transform-origin: 100% 50%;
+        -ms-transform-origin: 100% 50%;
+        -o-transform-origin: 100% 50%;
+        transform-origin: 100% 50%;
+        text-align: right; }
         #agenda .timings .row .time p:after {
           display: block;
           content: "\00A7";
           position: absolute;
           top: 0;
-          left: 0.25em; }
+          right: -0.25em; }
       #agenda .timings .row .summary {
-        -webkit-transform-origin: 100% 0%;
-        -moz-transform-origin: 100% 0%;
-        -ms-transform-origin: 100% 0%;
-        -o-transform-origin: 100% 0%;
-        transform-origin: 100% 0%;
+        -webkit-transform-origin: 0% 50%;
+        -moz-transform-origin: 0% 50%;
+        -ms-transform-origin: 0% 50%;
+        -o-transform-origin: 0% 50%;
+        transform-origin: 0% 50%;
         text-align: left; }
         #agenda .timings .row .summary p {
           padding-right: 3.15em; }
@@ -4054,8 +4064,8 @@ section {
           top: 50%;
           margin-top: -1.5em; } }
     #agenda .timings .row:hover {
-      background-color: #ffdf80; }
-*/
+      background-color: #f38749; }
+
 #location {
   color: white;
   background: #222222 url(../img/white-bg.png);
