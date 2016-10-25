@@ -3903,7 +3903,7 @@ section {
     -ms-animation: fadeInDown 1s 1s ease both;
     -o-animation: fadeInDown 1s 1s ease both;
     animation: fadeInDown 1s 1s ease both;
-    border-bottom: 1px dashed #222222; }
+    border-bottom: 1px dashed #ffffff; }
     #intro .countdown .counter h4#seconds {
       overflow: hidden;
       position: relative; }
@@ -4220,5 +4220,6 @@ a.link {
   color:#FF8533 !important;
 }
 
-  
-      
+.freebirdFormviewerViewFormBanner {
+  height: 188px !important; 
+}
