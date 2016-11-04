@@ -3803,7 +3803,7 @@ section {
     text-align: center; }
 
 .speakerList {
-  background-color: #f06819;
+  background-color: #FF9800;
 }
 
 #header {
@@ -3945,9 +3945,13 @@ section {
         top: 100%; }
   #intro .actions {
     padding-top: 1em; }
-    #intro .actions .participate {
-      margin: 0 auto;
-      float: none;
+    #intro .actions .participate{
+      float: left;
+    }
+    #intro .actions .speaker-list{
+      float: right;
+    }
+    #intro .actions .participate, #intro .actions .speaker-list{
       -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
       -moz-animation: rotateInUpLeft 1s 1.5s ease both;
       -ms-animation: rotateInUpLeft 1s 1.5s ease both;
