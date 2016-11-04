@@ -3946,10 +3946,10 @@ section {
   #intro .actions {
     padding-top: 1em; }
     #intro .actions .participate{
-      float: left;
+      float: right;
     }
     #intro .actions .speaker-list{
-      float: right;
+      float: left;
     }
     #intro .actions .participate, #intro .actions .speaker-list{
       -webkit-animation: rotateInUpLeft 1s 1.5s ease both;
