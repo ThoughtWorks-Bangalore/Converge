@@ -3802,6 +3802,10 @@ section {
     max-width: 1000px;
     text-align: center; }
 
+.speakerList {
+  background-color: #f06819;
+}
+
 #header {
   padding: 0;
   background: #f2f2f2; }
