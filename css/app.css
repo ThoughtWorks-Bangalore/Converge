@@ -3803,14 +3803,14 @@ section {
     text-align: center; }
 
 .speakerList {
-  background: #000 url(../img/white-bg-thatch.png);
+  background-image: url(../img/dark-bg.jpg);
   padding: 1.8rem;
 }
 .speakerList .header {
   text-align: center;
 }
 
-.speakerList .header h3{
+.speakerList .header h2{
   color: #fff;
   font-family: "Open Sans", sans-serif;
 }
@@ -4013,7 +4013,7 @@ section {
 #agenda {
   color: #222222;
   background: #FF8533 url(../img/white-bg-thatch.png); 
-padding-bottom: 1.8rem;}
+padding: 1.8rem 0;}
   #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
   #agenda a {
