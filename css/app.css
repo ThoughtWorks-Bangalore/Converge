@@ -4086,11 +4086,12 @@ padding: 1.8rem 0;}
       background-color: #f38749; }
 
 #location {
-  color: white;
-  background: #222222 url(../img/white-bg.png);
-  background-image: url(../img/dark-bg.jpg); }
+  color: #000;
+  background: #FF8533 url(../img/white-bg-thatch.png);
+  /*background-image: url(../img/dark-bg.jpg); */
+}
   #location h1, #location h2, #location h3, #location #archive .grid a .day, #archive .grid a #location .day, #location h4, #location h5, #location h6, #location #archive .grid a .month, #archive .grid a #location .month, #location .subheader, #location p, #location blockquote, #location a, #location small, #location #archive .grid a .year, #archive .grid a #location .year {
-    color: white; }
+    color: #000; }
   #location code, #location abbr, #location acronym {
     color: #d9d9d9; }
   #location .row {
@@ -4099,7 +4100,7 @@ padding: 1.8rem 0;}
     display: block;
     padding-bottom: 0.5em; }
   #location .address a {
-    color: #b38600; }
+    color: #015624; }
   @media only screen and (min-width: 768px) {
     #location .address p {
       text-align: right; }
