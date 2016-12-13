@@ -4242,3 +4242,12 @@ a.link {
 .freebirdFormviewerViewFormBanner {
   height: 188px !important; 
 }
+
+a.vd-link {
+  background-image: url(../img/ytube.png);
+  background-size: 22px;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 30px;
+  color: #222222 !important;
+}
