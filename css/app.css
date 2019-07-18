@@ -3800,6 +3800,12 @@ section {
   .feature.feature-small {
     min-height: 85%;
   }
+
+  .feature.feature-small h1 {
+    font-size: 1.75em;
+    margin-bottom: 50px;
+    margin-top: 30px;
+  }
   .feature .row {
     margin-bottom: 1em;
     max-width: 1000px;
