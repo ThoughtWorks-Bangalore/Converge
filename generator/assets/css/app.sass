@@ -44,6 +44,10 @@ section
   overflow: hidden
   clear: both
 
+  &.feature-small {
+   min-height: 80%;
+  }
+
   .row
     margin-bottom: 1em
     max-width: 1000px
@@ -67,14 +71,14 @@ section
         font-weight: normal
         display: inline-block
         color: $yellow
-	
+
 //
 // INTRO SECTION
 //
 #intro
   $main-fg: $dark
   $main-bg: $white
-  $alt-fg: $orange  
+  $alt-fg: $orange
   +override-colors($main-fg,$main-bg)
   background: url("../img/banner.jpg")
   background-size: cover
@@ -91,7 +95,7 @@ section
       display: block
       &:hover
         +animate(bounce, 1s)
-  
+
     #intro-desc
       background-color: rgba(0, 0, 0, 0.8)
 
@@ -139,6 +143,11 @@ section
         +animate(fadeInDown, 1s, 1s)
         border-bottom: 1px dashed $main-fg
 
+        &.couter-border-top {
+          border-top: 1px dashed $main-fg;
+          border-bottom: none;
+        }
+
         &#seconds
           overflow: hidden
           position: relative
@@ -170,7 +179,7 @@ section
 
     .participate
       margin: 0 auto
-      float: none		
+      float: none
       +animate(rotateInUpLeft, 1s, 1.5s)
 
     .talk

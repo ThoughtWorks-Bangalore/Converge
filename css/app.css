@@ -3796,6 +3796,10 @@ section {
   position: relative;
   overflow: hidden;
   clear: both; }
+
+  .feature.feature-small {
+    min-height: 85%;
+  }
   .feature .row {
     margin-bottom: 1em;
     max-width: 1000px;
@@ -3910,13 +3914,18 @@ section {
     -ms-animation: fadeInUp 1s 1s ease both;
     -o-animation: fadeInUp 1s 1s ease both;
     animation: fadeInUp 1s 1s ease both; }
-  #intro .countdown .counter h4 {
+  #intro .countdown .counter h4,
+  #intro .countdown .counter h4.couter-border-top {
     -webkit-animation: fadeInDown 1s 1s ease both;
     -moz-animation: fadeInDown 1s 1s ease both;
     -ms-animation: fadeInDown 1s 1s ease both;
     -o-animation: fadeInDown 1s 1s ease both;
     animation: fadeInDown 1s 1s ease both;
     border-bottom: 1px dashed #ffffff; }
+    #intro .countdown .counter h4.couter-border-top {
+      border-top: 1px dashed #ffffff;
+     border-bottom: none;
+   }
     #intro .countdown .counter h4#seconds {
       overflow: hidden;
       position: relative; }
