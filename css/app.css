@@ -4266,3 +4266,9 @@ a.vd-link {
   padding-right: 30px;
   color: #222222 !important;
 }
+
+#intro .actions p {
+  font-size: 0.90em;
+  color: #fff;
+  font-style: italic;
+}
