@@ -4301,10 +4301,6 @@ a.vd-link {
   margin-left: 25px;
 }
 
-.speakers-list-item:last-child {
-  margin: 0 auto;
-}
-
 #location h2 {
   color: #fff;
 }
@@ -4378,4 +4374,12 @@ iframe {
   .speakers-list {
     margin-top: 40px;
   }
+}
+
+.columns.address p {
+  width: 410px;
+}
+
+a.link i {
+  font-size: 20px;
 }
