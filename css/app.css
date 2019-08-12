@@ -4361,6 +4361,31 @@ iframe {
   }
 }
 
+.columns.address p {
+  width: 410px;
+}
+
+a.link i {
+  font-size: 20px;
+}
+
+small {
+  font-size: 14px;
+}
+
+.row.actions h4 {
+  font-size: 33px;
+}
+
+.actions-2 {
+  display: flex;
+  justify-content: center;
+}
+
+.row.actions h4 {
+  font-size: 28px;
+}
+
 @media screen and (max-width: 500px) {
   .speakers-list-item img {
     width: 130px;
@@ -4374,12 +4399,13 @@ iframe {
   .speakers-list {
     margin-top: 40px;
   }
-}
 
-.columns.address p {
-  width: 410px;
-}
+  .row.actions.actions-2 {
+    margin-top: -40px;
+    font-size: 28px;
+  }
 
-a.link i {
-  font-size: 20px;
+  .row.actions h4 {
+    font-size: 26px;
+  }
 }
