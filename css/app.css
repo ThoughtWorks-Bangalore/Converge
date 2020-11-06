@@ -4293,7 +4293,7 @@ a.vd-link {
 .speakers-list-item img {
   width: 180px;
   height: 180px;
-  border-radius: 50%;
+  border-radius: 10%;
 }
 
 .speakers-list-item p {
