@@ -4293,11 +4293,13 @@ a.vd-link {
 .speakers-list-item img {
   width: 180px;
   height: 180px;
+  filter: grayscale(100%);
   border-radius: 10%;
 }
 
 .speakers-list-item p {
   color: #fff;
+  padding: 2px;
   margin-left: 25px;
 }
 
