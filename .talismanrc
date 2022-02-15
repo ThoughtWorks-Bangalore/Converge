@@ -1,4 +1,6 @@
 fileignoreconfig:
 - filename: dec2020.html
   checksum: 0053e81840f62cdfa6d884c5c271a761be4801c9372af3498b3613f2637d421d
+- filename: index.html
+  checksum: 500f94dd5a9a4a45b3c970dfeda47ecff5082ad975c2a209eb3aa525fbb4648f
 version: "1.0"
