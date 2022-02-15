@@ -3898,7 +3898,7 @@ section {
     color: #f3002a;
     font-size: 0.85em;
     margin: 1em 0 0 0; }
-  #intro .countdown h4 {
+  #intro .countdown h4,#intro .countdown h6 {
     color: #f06819;
     text-transform: capitalize; }
   #intro .countdown .date p {
@@ -3907,7 +3907,7 @@ section {
     -ms-animation: fadeInDown 1s 1s ease both;
     -o-animation: fadeInDown 1s 1s ease both;
     animation: fadeInDown 1s 1s ease both; }
-  #intro .countdown .date h4 {
+  #intro .countdown .date h4, #intro .countdown .date h6 {
     -webkit-animation: fadeInUp 1s 1s ease both;
     -moz-animation: fadeInUp 1s 1s ease both;
     -ms-animation: fadeInUp 1s 1s ease both;
@@ -3921,14 +3921,17 @@ section {
     -o-animation: fadeInUp 1s 1s ease both;
     animation: fadeInUp 1s 1s ease both; }
   #intro .countdown .counter h4,
-  #intro .countdown .counter h4.couter-border-top {
+  #intro .countdown .counter h6,
+  #intro .countdown .counter h4.couter-border-top,
+  #intro .countdown .counter h6.couter-border-top {
     -webkit-animation: fadeInDown 1s 1s ease both;
     -moz-animation: fadeInDown 1s 1s ease both;
     -ms-animation: fadeInDown 1s 1s ease both;
     -o-animation: fadeInDown 1s 1s ease both;
     animation: fadeInDown 1s 1s ease both;
     border-bottom: 1px dashed #ffffff; }
-    #intro .countdown .counter h4.couter-border-top {
+    #intro .countdown .counter h4.couter-border-top,
+    #intro .countdown .counter h6.couter-border-top {
       border-top: 1px dashed #ffffff;
      border-bottom: none;
    }
