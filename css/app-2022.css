@@ -1829,7 +1829,7 @@ th.hide-for-touch {
 .top-bar-section ul li > a.button.alert:hover {
     background: #970b0e; }
 .top-bar-section ul li:hover > a {
-    background: #b38600;
+    background: #00AEEF;
     color: white; }
 .top-bar-section ul li.active > a {
     background: #ebebeb;
@@ -1936,14 +1936,14 @@ th.hide-for-touch {
     .top-bar-section ul li .js-generated {
         display: none; }
     .top-bar-section li.hover > a:not(.button) {
-        background: #b38600;
+        background: #00AEEF;
         color: white; }
     .top-bar-section li a:not(.button) {
         padding: 0 15px;
         line-height: 45px;
         background: #f2f2f2; }
     .top-bar-section li a:not(.button):hover {
-        background: #b38600; }
+        background: #00AEEF; }
     .top-bar-section .has-dropdown > a {
         padding-right: 35px !important; }
     .top-bar-section .has-dropdown > a:after {
@@ -2004,7 +2004,7 @@ th.hide-for-touch {
         right: 100%; }
 
     .no-js .top-bar-section ul li:hover > a {
-        background: #b38600;
+        background: #00AEEF;
         color: white; }
     .no-js .top-bar-section ul li:active > a {
         background: #ebebeb;
@@ -3656,7 +3656,7 @@ section#form h1 {
     /*margin-left: -30px;*/
     margin-top: -30px;
     height: 77px;
-    background-color: #FF8533;
+    background-color: #00AEEF;
     padding-top: 13px;
 }
 
@@ -3743,14 +3743,14 @@ section#form h1 {
     -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     box-shadow:inset 0px 1px 0px 0px #fbafe3;
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F6A779), color-stop(1, #FF8533) );
-    background:-moz-linear-gradient( center top, #F6A779 5%, #FF8533 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6A779', endColorstr='#FF8533');
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F6A779), color-stop(1, #00AEEF) );
+    background:-moz-linear-gradient( center top, #F6A779 5%, #00AEEF 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6A779', endColorstr='#00AEEF');
     background-color:#F6A779;
     border-radius:9px;
     -webkit-border-radius:9px;
     -moz-border-border-radius:9px;
-    border:1px solid #FF8533;
+    border:1px solid #00AEEF;
     display:inline-block;
     color:#ffffff;
     font-family:Arial;
@@ -3762,14 +3762,14 @@ section#form h1 {
     width:160px;
     text-decoration:none;
     text-align:center;
-    text-shadow:1px 1px 0px #FF8533;
+    text-shadow:1px 1px 0px #00AEEF;
     margin-bottom: 25px;
 }
 #mktoForm_3749 .mktoButtonRow :hover {
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #FF8533), color-stop(1, #F6A779) );
-    background:-moz-linear-gradient( center top, #FF8533 5%, #F6A779 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF8533', endColorstr='#F6A779');
-    background-color:#FF8533;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00AEEF), color-stop(1, #F6A779) );
+    background:-moz-linear-gradient( center top, #00AEEF 5%, #F6A779 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00AEEF', endColorstr='#F6A779');
+    background-color:#00AEEF;
 }}
 
 
@@ -3840,7 +3840,7 @@ section {
 #header .fixed .name h1 a span {
     font-weight: normal;
     display: inline-block;
-    color: #b38600; }
+    color: #00AEEF; }
 
 #intro {
     color: #222222;
@@ -4031,7 +4031,7 @@ section {
 
 #agenda {
     color: #222222;
-    background: #FF8533 url(../img/white-bg-thatch.png);
+    background: #00AEEF url(../img/white-bg-thatch.png);
     padding: 1.8rem 0;}
 #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
@@ -4107,7 +4107,7 @@ section {
 
 #location {
     color: #000;
-    background: #FF8533 url(../img/white-bg-thatch.png);
+    background: #00AEEF url(../img/white-bg-thatch.png);
     /*background-image: url(../img/dark-bg.jpg); */
 }
 #location h1, #location h2, #location h3, #location #archive .grid a .day, #archive .grid a #location .day, #location h4, #location h5, #location h6, #location #archive .grid a .month, #archive .grid a #location .month, #location .subheader, #location p, #location blockquote, #location a, #location small, #location #archive .grid a .year, #archive .grid a #location .year {
@@ -4167,7 +4167,7 @@ section {
     left: 50%; }
 #about .social a:hover, #about .social a:focus {
     color: white;
-    background-color: #b38600; }
+    background-color: #00AEEF; }
 #about .social a:hover i, #about .social a:focus i {
     -webkit-animation: flip 1s 0s ease both;
     -moz-animation: flip 1s 0s ease both;
@@ -4184,6 +4184,7 @@ section {
     margin-bottom: 1em; }
 #about blockquote small, #about blockquote #archive .grid a .year, #archive .grid a #about blockquote .year {
     font-size: 0.8125em; }
+
 #about blockquote a {
     color: #b38600; }
 #about blockquote cite {
@@ -4256,7 +4257,7 @@ section {
 #footer .row p a {
     color: #664d00; }
 a.link {
-    color:#FF8533 !important;
+    color:#00AEEF !important;
 }
 
 .freebirdFormviewerViewFormBanner {
@@ -4418,7 +4419,7 @@ small {
 }
 
 .button {
-    background-color: #FF8533;
+    background-color: #00AEEF;
     border: none;
     color: white;
     padding: 15px 32px;
