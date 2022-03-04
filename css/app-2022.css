@@ -3617,7 +3617,7 @@ section#form h1 {
 
 #speaker {
     color: #FFFFFF;
-    background: #FFFFFF url(../img/white-bg-thatch.png);
+    background: #FFFFFF url(../img/dark-bg.jpg);
 }
 
 #participate {
@@ -3795,7 +3795,8 @@ section {
     padding: 0em 0 0em 0;
     position: relative;
     overflow: hidden;
-    clear: both; }
+    clear: both;
+    min-height: fit-content}
 
 .feature.feature-small {
     min-height: 85%;
@@ -4010,16 +4011,16 @@ section {
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out;
-    background-color: #f06819;
-    border-color: #c9520d;
+    background-color: #00AEEF;
+    border-color: #0089bc;
     color: white;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     color: white;
     padding: 0.25em;
     margin-bottom: 0.25em; }
-#intro .actions a h4:hover, #intro .actions a h4:focus {
-    background-color: #c9520d; }
+/*#intro .actions a h4:hover, #intro .actions a h4:focus {*/
+/*    background-color: #c9520d; }*/
 #intro .actions a h4:hover, #intro .actions a h4:focus {
     color: white; }
 @media only screen and (max-width: 768px) {
@@ -4042,7 +4043,7 @@ section {
 #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
 #agenda .timings .row {
-    border-bottom: 1px dashed #f9c6a9;
+    border-bottom: 1px dashed #1ac2ff;
     margin-bottom: 0;
     padding: 0.5em 0;
     overflow: hidden;
@@ -4103,7 +4104,7 @@ section {
         top: 50%;
         margin-top: -1.5em; } }
 #agenda .timings .row:hover {
-    background-color: #f38749; }
+    background-color: #1ac2ff; }
 
 #location {
     color: #000;
