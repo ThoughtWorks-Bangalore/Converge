@@ -1829,7 +1829,7 @@ th.hide-for-touch {
 .top-bar-section ul li > a.button.alert:hover {
     background: #970b0e; }
 .top-bar-section ul li:hover > a {
-    background: #00AEEF;
+    background: #1ac2ff;
     color: white; }
 .top-bar-section ul li.active > a {
     background: #ebebeb;
@@ -1943,7 +1943,7 @@ th.hide-for-touch {
         line-height: 45px;
         background: #f2f2f2; }
     .top-bar-section li a:not(.button):hover {
-        background: #00AEEF; }
+        background: #1ac2ff; }
     .top-bar-section .has-dropdown > a {
         padding-right: 35px !important; }
     .top-bar-section .has-dropdown > a:after {
@@ -2004,7 +2004,7 @@ th.hide-for-touch {
         right: 100%; }
 
     .no-js .top-bar-section ul li:hover > a {
-        background: #00AEEF;
+        background: #1ac2ff;
         color: white; }
     .no-js .top-bar-section ul li:active > a {
         background: #ebebeb;
@@ -3857,7 +3857,6 @@ section {
     #intro {
         margin-top: 45px; } }
 #intro .row {
-    background-color: #FFFFFF;
     margin-bottom: 0;
     padding: 1em 0; }
 #intro .logo .tw-logo {
@@ -4019,8 +4018,8 @@ section {
     color: white;
     padding: 0.25em;
     margin-bottom: 0.25em; }
-/*#intro .actions a h4:hover, #intro .actions a h4:focus {*/
-/*    background-color: #c9520d; }*/
+#intro .actions a h4:hover, #intro .actions a h4:focus {
+    background-color: #1ac2ff; }
 #intro .actions a h4:hover, #intro .actions a h4:focus {
     color: white; }
 @media only screen and (max-width: 768px) {
@@ -4036,6 +4035,12 @@ section {
     padding: 1.8rem 0;}
 #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
+#agenda button {
+    background-color: #00AEEF;
+}
+#agenda button:hover {
+    background-color: #1ac2ff;
+}
 #agenda a {
     color: white; }
 #agenda a:hover, #agenda a:active {
@@ -4168,13 +4173,16 @@ section {
     left: 50%; }
 #about .social a:hover, #about .social a:focus {
     color: white;
-    background-color: #00AEEF; }
+    background-color: #1ac2ff; }
 #about .social a:hover i, #about .social a:focus i {
     -webkit-animation: flip 1s 0s ease both;
     -moz-animation: flip 1s 0s ease both;
     -ms-animation: flip 1s 0s ease both;
     -o-animation: flip 1s 0s ease both;
     animation: flip 1s 0s ease both; }
+#about button:hover {
+    background-color: #1ac2ff;
+}
 #about blockquote {
     border: 0;
     padding: 0;
@@ -4219,7 +4227,7 @@ section {
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s; }
 #archive .grid a:hover {
-    background-color: #00AEEF; }
+    background-color: #1ac2ff; }
 #archive .grid a .month {
     color: white;
     line-height: 1.5em;
