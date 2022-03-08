@@ -1829,7 +1829,7 @@ th.hide-for-touch {
 .top-bar-section ul li > a.button.alert:hover {
     background: #970b0e; }
 .top-bar-section ul li:hover > a {
-    background: #1ac2ff;
+    background: #47A1AD;
     color: white; }
 .top-bar-section ul li.active > a {
     background: #ebebeb;
@@ -1943,7 +1943,7 @@ th.hide-for-touch {
         line-height: 45px;
         background: #f2f2f2; }
     .top-bar-section li a:not(.button):hover {
-        background: #1ac2ff; }
+        background: #47A1AD; }
     .top-bar-section .has-dropdown > a {
         padding-right: 35px !important; }
     .top-bar-section .has-dropdown > a:after {
@@ -2004,7 +2004,7 @@ th.hide-for-touch {
         right: 100%; }
 
     .no-js .top-bar-section ul li:hover > a {
-        background: #1ac2ff;
+        background: #47A1AD;
         color: white; }
     .no-js .top-bar-section ul li:active > a {
         background: #ebebeb;
@@ -3841,13 +3841,13 @@ section {
 #header .fixed .name h1 a span {
     font-weight: normal;
     display: inline-block;
-    color: #00AEEF; }
+    color: #47A1AD; }
 
 #intro {
     color: #222222;
     background: #FFFFFF url(../img/banner-white.png);
     background: url("../img/banner-white.png");
-    background-size: cover;
+    background-size: auto;
     border-radius: 0; }
 #intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro a, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
     color: #222222; }
@@ -3900,7 +3900,7 @@ section {
     margin: 1em 0 0 0; }
 #intro .countdown h4,
 #intro .countdown h6 {
-    color: #00AEEF;
+    color: #47A1AD;
     text-transform: capitalize; }
 #intro .countdown .date p {
     -webkit-animation: fadeInDown 1s 1s ease both;
@@ -4010,8 +4010,7 @@ section {
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out;
-    background-color: #00AEEF;
-    border-color: #0089bc;
+    background-color: #47A1AD;
     color: white;
     -webkit-border-radius: 3px;
     border-radius: 3px;
@@ -4019,7 +4018,7 @@ section {
     padding: 0.25em;
     margin-bottom: 0.25em; }
 #intro .actions a h4:hover, #intro .actions a h4:focus {
-    background-color: #1ac2ff; }
+    background-color: #003D4F; }
 #intro .actions a h4:hover, #intro .actions a h4:focus {
     color: white; }
 @media only screen and (max-width: 768px) {
