@@ -1936,7 +1936,7 @@ th.hide-for-touch {
     .top-bar-section ul li .js-generated {
         display: none; }
     .top-bar-section li.hover > a:not(.button) {
-        background: #00AEEF;
+        background: #47A1AD;
         color: white; }
     .top-bar-section li a:not(.button) {
         padding: 0 15px;
@@ -3656,7 +3656,7 @@ section#form h1 {
     /*margin-left: -30px;*/
     margin-top: -30px;
     height: 77px;
-    background-color: #00AEEF;
+    background-color: #47A1AD;
     padding-top: 13px;
 }
 
@@ -3743,14 +3743,14 @@ section#form h1 {
     -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     box-shadow:inset 0px 1px 0px 0px #fbafe3;
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F6A779), color-stop(1, #00AEEF) );
-    background:-moz-linear-gradient( center top, #F6A779 5%, #00AEEF 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6A779', endColorstr='#00AEEF');
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F6A779), color-stop(1, #47A1AD) );
+    background:-moz-linear-gradient( center top, #F6A779 5%, #47A1AD 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6A779', endColorstr='#47A1AD');
     background-color:#F6A779;
     border-radius:9px;
     -webkit-border-radius:9px;
     -moz-border-border-radius:9px;
-    border:1px solid #00AEEF;
+    border:1px solid #47A1AD;
     display:inline-block;
     color:#ffffff;
     font-family:Arial;
@@ -3762,14 +3762,14 @@ section#form h1 {
     width:160px;
     text-decoration:none;
     text-align:center;
-    text-shadow:1px 1px 0px #00AEEF;
+    text-shadow:1px 1px 0px #47A1AD;
     margin-bottom: 25px;
 }
 #mktoForm_3749 .mktoButtonRow :hover {
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #00AEEF), color-stop(1, #F6A779) );
-    background:-moz-linear-gradient( center top, #00AEEF 5%, #F6A779 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00AEEF', endColorstr='#F6A779');
-    background-color:#00AEEF;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #47A1AD), color-stop(1, #F6A779) );
+    background:-moz-linear-gradient( center top, #47A1AD 5%, #F6A779 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#47A1AD', endColorstr='#F6A779');
+    background-color:#47A1AD;
 }}
 
 
@@ -4030,15 +4030,15 @@ section {
 
 #agenda {
     color: #222222;
-    background: #00AEEF url(../img/white-bg-thatch.png);
+    background: #47A1AD url(../img/white-bg-thatch.png);
     padding: 1.8rem 0;}
 #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #222222; }
 #agenda button {
-    background-color: #00AEEF;
+    background-color: #47A1AD;
 }
 #agenda button:hover {
-    background-color: #1ac2ff;
+    background-color: #003D4F;
 }
 #agenda a {
     color: white; }
@@ -4047,7 +4047,7 @@ section {
 #agenda code, #agenda abbr, #agenda acronym {
     color: black; }
 #agenda .timings .row {
-    border-bottom: 1px dashed #1ac2ff;
+    border-bottom: 1px dashed #003D4F;
     margin-bottom: 0;
     padding: 0.5em 0;
     overflow: hidden;
@@ -4108,11 +4108,11 @@ section {
         top: 50%;
         margin-top: -1.5em; } }
 #agenda .timings .row:hover {
-    background-color: #1ac2ff; }
+    background-color: #EDF1F3; }
 
 #location {
     color: #000;
-    background: #00AEEF url(../img/white-bg-thatch.png);
+    background: #47A1AD url(../img/white-bg-thatch.png);
     /*background-image: url(../img/dark-bg.jpg); */
 }
 #location h1, #location h2, #location h3, #location #archive .grid a .day, #archive .grid a #location .day, #location h4, #location h5, #location h6, #location #archive .grid a .month, #archive .grid a #location .month, #location .subheader, #location p, #location blockquote, #location a, #location small, #location #archive .grid a .year, #archive .grid a #location .year {
@@ -4172,15 +4172,18 @@ section {
     left: 50%; }
 #about .social a:hover, #about .social a:focus {
     color: white;
-    background-color: #1ac2ff; }
+    background-color: #47A1AD; }
 #about .social a:hover i, #about .social a:focus i {
     -webkit-animation: flip 1s 0s ease both;
     -moz-animation: flip 1s 0s ease both;
     -ms-animation: flip 1s 0s ease both;
     -o-animation: flip 1s 0s ease both;
     animation: flip 1s 0s ease both; }
+#about button {
+    background-color: #47A1AD;
+}
 #about button:hover {
-    background-color: #1ac2ff;
+    background-color: #003D4F;
 }
 #about blockquote {
     border: 0;
@@ -4194,7 +4197,7 @@ section {
     font-size: 0.8125em; }
 
 #about blockquote a {
-    color: #00AEEF; }
+    color: #47A1AD; }
 #about blockquote cite {
     margin: 0.25em 0;
     text-align: right; }
@@ -4226,7 +4229,7 @@ section {
     -o-transition: background-color 0.3s;
     transition: background-color 0.3s; }
 #archive .grid a:hover {
-    background-color: #1ac2ff; }
+    background-color: #003D4F; }
 #archive .grid a .month {
     color: white;
     line-height: 1.5em;
@@ -4264,9 +4267,9 @@ section {
 #footer .row p {
     line-height: 1em; }
 #footer .row p a {
-    color: #00AEEF; }
+    color: #47A1AD; }
 a.link {
-    color:#00AEEF !important;
+    color:#47A1AD !important;
 }
 
 .freebirdFormviewerViewFormBanner {
@@ -4428,7 +4431,7 @@ small {
 }
 
 .button {
-    background-color: #00AEEF;
+    background-color: #47A1AD;
     border: none;
     color: white;
     padding: 15px 32px;
