@@ -1838,7 +1838,7 @@ th.hide-for-touch {
 .top-bar-section ul li > a.button.alert:hover {
     background: #970b0e; }
 .top-bar-section ul li:hover > a {
-    background: #47A1AD;
+    background: #003D4F;
     color: white; }
 .top-bar-section ul li.active > a {
     background: #ebebeb;
@@ -1945,14 +1945,14 @@ th.hide-for-touch {
     .top-bar-section ul li .js-generated {
         display: none; }
     .top-bar-section li.hover > a:not(.button) {
-        background: #47A1AD;
+        background: #003D4F;
         color: white; }
     .top-bar-section li a:not(.button) {
         padding: 0 15px;
         line-height: 45px;
         background: #EDF1F3; }
     .top-bar-section li a:not(.button):hover {
-        background: #47A1AD; }
+        background: #003D4F; }
     .top-bar-section .has-dropdown > a {
         padding-right: 35px !important; }
     .top-bar-section .has-dropdown > a:after {
@@ -2013,7 +2013,7 @@ th.hide-for-touch {
         right: 100%; }
 
     .no-js .top-bar-section ul li:hover > a {
-        background: #47A1AD;
+        background: #003D4F;
         color: white; }
     .no-js .top-bar-section ul li:active > a {
         background: #ebebeb;
@@ -3664,7 +3664,7 @@ section#form h1 {
     /*margin-left: -30px;*/
     margin-top: -30px;
     height: 77px;
-    background-color: #47A1AD;
+    background-color: #003D4F;
     padding-top: 13px;
 }
 
@@ -3751,14 +3751,14 @@ section#form h1 {
     -moz-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     -webkit-box-shadow:inset 0px 1px 0px 0px #fbafe3;
     box-shadow:inset 0px 1px 0px 0px #fbafe3;
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F6A779), color-stop(1, #47A1AD) );
-    background:-moz-linear-gradient( center top, #F6A779 5%, #47A1AD 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6A779', endColorstr='#47A1AD');
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #F6A779), color-stop(1, #003D4F) );
+    background:-moz-linear-gradient( center top, #F6A779 5%, #003D4F 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#F6A779', endColorstr='#003D4F');
     background-color:#F6A779;
     border-radius:9px;
     -webkit-border-radius:9px;
     -moz-border-border-radius:9px;
-    border:1px solid #47A1AD;
+    border:1px solid #003D4F;
     display:inline-block;
     color:#ffffff;
     font-size:16px;
@@ -3769,14 +3769,14 @@ section#form h1 {
     width:160px;
     text-decoration:none;
     text-align:center;
-    text-shadow:1px 1px 0px #47A1AD;
+    text-shadow:1px 1px 0px #003D4F;
     margin-bottom: 25px;
 }
 #mktoForm_3749 .mktoButtonRow :hover {
-    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #47A1AD), color-stop(1, #F6A779) );
-    background:-moz-linear-gradient( center top, #47A1AD 5%, #F6A779 100% );
-    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#47A1AD', endColorstr='#F6A779');
-    background-color:#47A1AD;
+    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #003D4F), color-stop(1, #F6A779) );
+    background:-moz-linear-gradient( center top, #003D4F 5%, #F6A779 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#003D4F', endColorstr='#F6A779');
+    background-color:#003D4F;
 }}
 
 
@@ -3818,7 +3818,6 @@ section {
     margin-bottom: 1em;
     max-width: 1000px;
     text-align: center; }
-
 .speakerList {
     background: #000000;
     padding: 1.8rem;
@@ -3849,7 +3848,7 @@ section {
 #header .fixed .name h1 a span {
     font-weight: normal;
     display: inline-block;
-    color: #47A1AD; }
+    color: #003D4F; }
 
 #intro {
     color: #000000;
@@ -4139,7 +4138,7 @@ section {
 
 #location {
     color: #000;
-    background: #47A1AD url(../img/white-bg-thatch.png);
+    background: #003D4F url(../img/white-bg-thatch.png);
     /*background-image: url(../img/dark-bg.jpg); */
 }
 #location h1, #location h2, #location h3, #location #archive .grid a .day, #archive .grid a #location .day, #location h4, #location h5, #location h6, #location #archive .grid a .month, #archive .grid a #location .month, #location .subheader, #location p, #location blockquote, #location a, #location small, #location #archive .grid a .year, #archive .grid a #location .year {
@@ -4214,7 +4213,7 @@ section {
     font-size: 0.8125em; }
 
 #about blockquote a {
-    color: #47A1AD; }
+    color: #003D4F; }
 #about blockquote cite {
     margin: 0.25em 0;
     text-align: right; }
@@ -4292,7 +4291,7 @@ section {
 #footer .row p {
     line-height: 1em; }
 #footer .row p a {
-    color: #47A1AD; }
+    color: #003D4F; }
 a.link {
     color:#F2617A !important;
 }
@@ -4322,20 +4321,21 @@ a.vd-link {
     grid-template-rows: 1fr 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 50px;
-    margin-top: 60px;
-    margin-bottom: 0px;
+    margin: 60px 15px 0px 15px;
+    min-height: fit-content;
 }
 
 .speakers-list-item {
-    width: 510px;
-    margin-bottom: 40px;
+    width: 500px;
+    margin-left: 35px;
+    margin-right: 35px;
     display: flex;
     align-items: center;
 }
 
 .speakers-list-item img {
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     filter: grayscale(100%);
     border-radius: 10%;
 }
@@ -4343,6 +4343,7 @@ a.vd-link {
 .speakers-list-item p {
     font-family: 'Inter', sans-serif;
     font-weight: 360;
+    font-size: 18px;
     color: #fff;
     padding: 2px;
     margin-left: 25px;
@@ -4370,10 +4371,11 @@ iframe {
     margin-bottom: 10px;
     font-family: "Inter", sans-serif;
     font-weight: 360;
+    font-size: 25px;
 }
 
 .speakers-list-item-initial {
-    margin: 80px auto 0;
+    margin: 60px 625px;
 }
 
 @media screen and (max-width: 1464px) {
@@ -4460,7 +4462,7 @@ small {
 }
 
 .button {
-    background-color: #47A1AD;
+    background-color: #003D4F;
     border: none;
     color: white;
     padding: 15px 32px;
