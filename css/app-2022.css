@@ -4319,16 +4319,14 @@ a.vd-link {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
-    grid-column-gap: 0px;
+    grid-column-gap: 0;
     grid-row-gap: 50px;
-    margin: 60px 15px 0px 15px;
+    margin: 60px auto 0 auto;
     min-height: fit-content;
 }
 
 .speakers-list-item {
     width: 500px;
-    margin-left: 35px;
-    margin-right: 35px;
     display: flex;
     align-items: center;
 }
@@ -4373,9 +4371,12 @@ iframe {
     font-weight: 360;
     font-size: 25px;
 }
-
+.speakers-list-item-initial-container{
+    display: flex;
+    justify-content: center;
+}
 .speakers-list-item-initial {
-    margin: 60px 625px;
+    margin-top: 60px;
 }
 
 @media screen and (max-width: 1464px) {
