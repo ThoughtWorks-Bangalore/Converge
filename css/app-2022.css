@@ -4151,14 +4151,17 @@ intro h6 {
     padding-top: 2em;
     min-height: 0%;
     color: white;
-    background: #222222 url(../img/white-bg.png);
-    background-image: url(../img/dark-bg.jpg); }
+    background: #000000;
+}
 #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h4, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about a, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
-    color: white; }
+    font-family: "Inter V";
+    font-size: x-large;
+    color: white;
+}
 #about code, #about abbr, #about acronym {
     color: #d9d9d9; }
 #about .social a {
-    font-size: 1.5em;
+    font-size: 1.2em;
     display: inline-block;
     color: #222222;
     background-color: white;
@@ -4175,30 +4178,13 @@ intro h6 {
     transition: color 0.3s, background-color 0.3s; }
 #about .social a i {
     display: inline-block; }
-#about .social a:before {
-    display: block;
-    position: absolute;
-    content: "";
-    width: 2px;
-    margin-left: -1px;
-    height: 2.5em;
-    background-color: white;
-    top: -2.5em;
-    left: 50%; }
 #about .social a:hover, #about .social a:focus {
     color: white;
-    background-color: #47A1AD; }
-#about .social a:hover i, #about .social a:focus i {
-    -webkit-animation: flip 1s 0s ease both;
-    -moz-animation: flip 1s 0s ease both;
-    -ms-animation: flip 1s 0s ease both;
-    -o-animation: flip 1s 0s ease both;
-    animation: flip 1s 0s ease both; }
+    background-color: #003D4F; }
+
 #about button {
-    background-color: #47A1AD;
-}
-#about button:hover {
     background-color: #003D4F;
+    font-size: large;
 }
 #about blockquote {
     border: 0;
@@ -4284,7 +4270,7 @@ intro h6 {
 #footer .row p a {
     color: #47A1AD; }
 a.link {
-    color:#47A1AD !important;
+    color:#F2617A !important;
 }
 
 .freebirdFormviewerViewFormBanner {
