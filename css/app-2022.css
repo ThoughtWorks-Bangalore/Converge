@@ -4060,9 +4060,11 @@ section {
 #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
     color: #000000;
     font-family: "Inter";
+    font-weight: 360;
 }
 #agenda h2 {
-    font-family: 'Bitter', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-weight: 630;
 }
 #agenda a {
     color: white;
