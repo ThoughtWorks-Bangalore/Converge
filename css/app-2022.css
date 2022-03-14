@@ -4221,13 +4221,21 @@ section {
 
 #archive {
     color: #000000;
-    background: white url(../img/white-bg.png);
-    background: url("../img/banner-white.png");
+    background: white ;
     background-position: center;
     background-size: cover;
-    min-height: fit-content}
+    min-height: fit-content
+}
 #archive h1, #archive h2, #archive h3, #archive .grid a .day, #archive h4, #archive h5, #archive h6, #archive .grid a .month, #archive .subheader, #archive p, #archive blockquote, #archive a, #archive small, #archive .grid a .year {
-    color: #000000; }
+    color: #000000;
+    font-family: Inter;
+    font-weight: 360;
+}
+#archive h2{
+    color: #000000;
+    font-family: Inter;
+    font-weight: 630;
+}
 #archive code, #archive abbr, #archive acronym {
     color: black; }
 #archive .row {
