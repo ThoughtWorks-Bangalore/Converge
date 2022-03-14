@@ -61,7 +61,7 @@ script {
  *    user zoom.
  */
 html {
-    font-family: sans-serif;
+    font-family: "Inter V";
     /* 1 */
     -ms-text-size-adjust: 100%;
     /* 2 */
@@ -375,7 +375,7 @@ body {
     color: #222222;
     padding: 0;
     margin: 0;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter V", sans-serif;
     font-weight: 300;
     font-style: normal;
     line-height: 1;
@@ -502,7 +502,7 @@ p aside {
 
 /* Default header styles */
 h1, h2, h3, #archive .grid a .day, h4, h5, h6, #archive .grid a .month {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter V", sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #222222;
@@ -1702,7 +1702,9 @@ th.hide-for-touch {
     line-height: 45px;
     position: relative;
     background: #f2f2f2;
-    margin-bottom: 0; }
+    margin-bottom: 0;
+    font-weight: 630;
+}
 .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -1780,6 +1782,7 @@ th.hide-for-touch {
     box-shadow: 0 10px 0 1px #888888, 0 16px 0 1px #888888, 0 22px 0 1px #888888; }
 
 .top-bar-section {
+    background-color: #EDF1F3;
     left: 0;
     position: relative;
     width: auto;
@@ -1892,7 +1895,7 @@ th.hide-for-touch {
 
 @media only screen and (min-width: 940px) {
     .top-bar {
-        background: #f2f2f2;
+        background: #EDF1F3;
         *zoom: 1;
         overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -1915,7 +1918,7 @@ th.hide-for-touch {
         position: relative;
         top: 8px; }
     .top-bar.expanded {
-        background: #f2f2f2; }
+        background: #EDF1F3; }
 
     .contain-to-grid .top-bar {
         max-width: 62.5em;
@@ -1941,7 +1944,7 @@ th.hide-for-touch {
     .top-bar-section li a:not(.button) {
         padding: 0 15px;
         line-height: 45px;
-        background: #f2f2f2; }
+        background: #EDF1F3; }
     .top-bar-section li a:not(.button):hover {
         background: #47A1AD; }
     .top-bar-section .has-dropdown > a {
@@ -3639,7 +3642,7 @@ section#form h1 {
     min-width: 320px !important;
     /*width: 600px !important;*/
     background-color: #FFFFFF;
-    font-family: "Open Sans";
+    font-family: "Inter V";
     float: none !important;
 }
 
@@ -3669,7 +3672,7 @@ section#form h1 {
     min-width: 320px !important;
     width: 414px !important;
     background-color: #FFFFFF;
-    font-family: "Open Sans";
+    font-family: "Inter V";
 }
 #mktoForm_3840 .mktoFormRow, #mktoForm_3749 .mktoFormRow {
     margin: 10px; }
@@ -3707,7 +3710,7 @@ section#form h1 {
     padding-top: 10px;
     font-weight: 400;
     font-size: 16px;
-    font-family: "Open Sans";
+    font-family: "Inter V";
 }
 #mktoForm_3840 .mktoFormRow input, #mktoForm_3749 .mktoFormRow input {
     padding: 10px;
@@ -3753,11 +3756,10 @@ section#form h1 {
     border:1px solid #47A1AD;
     display:inline-block;
     color:#ffffff;
-    font-family:Arial;
     font-size:16px;
     font-weight:bold;
     font-style:normal;
-    font-family: "Open Sans";
+    font-family: "Inter V";
     height: 40px;
     width:160px;
     text-decoration:none;
@@ -3822,7 +3824,7 @@ section {
 
 .speakerList .header h2{
     color: #fff;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter V", sans-serif;
 }
 
 
@@ -3845,12 +3847,21 @@ section {
 
 #intro {
     color: #222222;
-    background: #FFFFFF url(../img/banner-white.png);
-    background: url("../img/banner-white.png");
+    background: #FFFFFF;
     background-size: auto;
     border-radius: 0; }
-#intro h1, #intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro a, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
-    color: #222222; }
+#intro h1 {
+    font-family: 'Bitter', serif;
+}
+intro h6 {
+    font-family: "Inter V";
+    font-weight: 630;
+}
+#intro h2, #intro h3, #intro #archive .grid a .day, #archive .grid a #intro .day, #intro h4, #intro h5, #intro h6, #intro #archive .grid a .month, #archive .grid a #intro .month, #intro .subheader, #intro p, #intro blockquote, #intro a, #intro small, #intro #archive .grid a .year, #archive .grid a #intro .year {
+    color: black;
+    font-family: "Inter V";
+    font-weight: 360;
+}
 #intro code, #intro abbr, #intro acronym {
     color: black; }
 @media only screen and (min-width: 768px) {
@@ -3900,7 +3911,7 @@ section {
     margin: 1em 0 0 0; }
 #intro .countdown h4,
 #intro .countdown h6 {
-    color: #47A1AD;
+    color: #6B9E78;
     text-transform: capitalize; }
 #intro .countdown .date p {
     -webkit-animation: fadeInDown 1s 1s ease both;
@@ -4010,13 +4021,16 @@ section {
     -webkit-transition: background-color 300ms ease-out;
     -moz-transition: background-color 300ms ease-out;
     transition: background-color 300ms ease-out;
-    background-color: #47A1AD;
+    background-color: #003D4F;
     color: white;
     -webkit-border-radius: 3px;
     border-radius: 3px;
     color: white;
     padding: 0.25em;
-    margin-bottom: 0.25em; }
+    margin-bottom: 0.25em;
+    font-family: "Inter V";
+    font-weight: 630;
+}
 #intro .actions a h4:hover, #intro .actions a h4:focus {
     background-color: #003D4F; }
 #intro .actions a h4:hover, #intro .actions a h4:focus {
