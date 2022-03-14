@@ -3628,7 +3628,6 @@ section#form h1 {
     color: #FFFFFF;
     background: #FFFFFF url(../img/dark-bg.jpg);
 }
-
 #participate {
     color: #FFFFFF;
     background: #FFFFFF url(../img/white-bg-thatch.png);
@@ -3821,7 +3820,7 @@ section {
     text-align: center; }
 
 .speakerList {
-    background-image: url(../img/dark-bg.jpg);
+    background: #000000;
     padding: 1.8rem;
 }
 .speakerList .header {
@@ -3831,6 +3830,7 @@ section {
 .speakerList .header h2{
     color: #fff;
     font-family: "Inter", sans-serif;
+    font-weight: 630;
 }
 
 
@@ -4341,6 +4341,8 @@ a.vd-link {
 }
 
 .speakers-list-item p {
+    font-family: 'Inter', sans-serif;
+    font-weight: 360;
     color: #fff;
     padding: 2px;
     margin-left: 25px;
@@ -4366,6 +4368,8 @@ iframe {
     color: #fff;
     padding-left: 25px;
     margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 360;
 }
 
 .speakers-list-item-initial {
