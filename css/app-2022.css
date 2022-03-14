@@ -4044,19 +4044,18 @@ intro h6 {
 
 #agenda {
     color: #222222;
-    background: #47A1AD url(../img/white-bg-thatch.png);
+    background: #6B9E78;
     padding: 1.8rem 0;}
 #agenda h1, #agenda h2, #agenda h3, #agenda #archive .grid a .day, #archive .grid a #agenda .day, #agenda h4, #agenda h5, #agenda h6, #agenda #archive .grid a .month, #archive .grid a #agenda .month, #agenda .subheader, #agenda p, #agenda blockquote, #agenda small, #agenda #archive .grid a .year, #archive .grid a #agenda .year {
-    color: #222222; }
-
-#agenda button {
-    background-color: #47A1AD;
+    color: #000000;
+    font-family: "Inter V";
 }
-#agenda button:hover {
-    background-color: #003D4F;
+#agenda h2 {
+    font-family: 'Bitter', serif;
 }
 #agenda a {
-    color: white; }
+    color: white;
+}
 #agenda a:hover, #agenda a:active {
     color: #fad1ba; }
 #agenda code, #agenda abbr, #agenda acronym {
