@@ -382,7 +382,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: "Inter", sans-serif;
-    font-weight: 300;
+    font-weight: 360;
     font-style: normal;
     line-height: 1;
     position: relative;
@@ -454,7 +454,7 @@ p.lead {
 .subheader {
     line-height: 1.4;
     color: #6f6f6f;
-    font-weight: 300;
+    font-weight: 360;
     margin-top: 0.2em;
     margin-bottom: 0.5em; }
 
@@ -497,7 +497,7 @@ a img {
 /* Default paragraph styles */
 p {
     font-family: inherit;
-    font-weight: 300;
+    font-weight: 360;
     font-size: 0.6em;
     line-height: 1.25;
     text-rendering: optimizeLegibility; }
@@ -509,7 +509,7 @@ p aside {
 /* Default header styles */
 h1, h2, h3, #archive .grid a .day, h4, h5, h6, #archive .grid a .month {
     font-family: "Inter", sans-serif;
-    font-weight: 300;
+    font-weight: 360;
     font-style: normal;
     color: #000000;
     text-rendering: optimizeLegibility;
@@ -1737,7 +1737,7 @@ th.hide-for-touch {
     font-size: 1.0625em;
     margin: 0; }
 .top-bar .name h1 a {
-    font-weight: 300;
+    font-weight: 360;
     color: #000000;
     width: 50%;
     display: block;
@@ -1801,6 +1801,7 @@ th.hide-for-touch {
     display: block;
     background: #222222;
     font-size: 16px;
+    font-weight: 360;
     margin: 0; }
 .top-bar-section .divider,
 .top-bar-section [role="separator"] {
@@ -1816,7 +1817,7 @@ th.hide-for-touch {
     padding: 12px 0 12px 0;
     padding-left: 15px;
     font-size: 0.8125em;
-    font-weight: 300;
+    font-weight: 360;
     background: #222222; }
 .top-bar-section ul li > a.button {
     background: #222222;
@@ -1877,7 +1878,7 @@ th.hide-for-touch {
     font-weight: normal;
     padding: 8px 15px; }
 .top-bar-section .dropdown li a.parent-link {
-    font-weight: 300; }
+    font-weight: 360; }
 .top-bar-section .dropdown li.title h5 {
     margin-bottom: 0; }
 .top-bar-section .dropdown li.title h5 a {
@@ -4476,7 +4477,7 @@ small {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    font-weight: 300;
+    font-weight: 360;
     margin: 4px 2px;
     cursor: pointer;
 }
