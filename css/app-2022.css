@@ -4164,9 +4164,14 @@ section {
     color: white;
     background: #000000;
 }
-#about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about p, #about blockquote, #about a, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
-    font-family: "Inter";
+#about p, #about h1, #about h2, #about h3, #about #archive .grid a .day, #archive .grid a #about .day, #about h5, #about h6, #about #archive .grid a .month, #archive .grid a #about .month, #about .subheader, #about blockquote, #about a, #about small, #about #archive .grid a .year, #archive .grid a #about .year {
+    font-family: "Inter", sans-serif;
     font-size: x-large;
+}
+#about .register {
+    font-family: "Inter", sans-serif;
+    font-size: x-large;
+    color: #F2617A;
 }
 #about h4 {
     font-family: "Inter";
